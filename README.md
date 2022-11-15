@@ -1,4 +1,4 @@
-# Hugo Another Minimalist Theme
+### Hugo Another Minimalist Theme
 
 [![Build example site](https://github.com/hugcis/hugo-astatine-theme/actions/workflows/main.yml/badge.svg)](https://github.com/hugcis/hugo-astatine-theme/actions/workflows/main.yml)
 
