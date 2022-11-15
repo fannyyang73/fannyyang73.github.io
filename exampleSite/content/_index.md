@@ -17,8 +17,8 @@ publications:
   - 
     me: Rothe, S. 
     authors:
-        - Andreyev, A. N. 
-        - Antalic, S.
+        - JIA
+        - YI
         - Borschevsky, A.
         - Capponi, L.
         - Cocolios, T. E.
