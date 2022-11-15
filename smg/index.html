@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>SMG | Terrain Navigation</title>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-147471950-4"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-147471950-4');
+    </script>
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/non-responsive.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+	  <a class="navbar-brand" href="index.html" >SMG</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="terrain_navigation.html">Terrain Navigation</a></li>
+            <li><a href="sv.html">Stochastic Volatility</a></li>
+	          <li><a href="bimodal.html">High-Dimensional Target</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+<div class="container">
+
+      <h2>Stratified Multiple-descendant Growth (SMG)</h2>
+      <h3>Introduction</h3>
+      <p>We demonstrate the SMG method proposed in Section 5 of Li, Wang, Deng and Liu (2020). SMG allows the sequential Monte Carlo (SMC) to explore the sample space more efficiently compared to the standard i.i.d. multiple-descendant sampling-resampling approach.</p>
+
+      <p>We provide three notebook tutorials on terrain navigation, estimation of multivariate stochastic volatility and sampling from a high-dimensional target distribution. The details of the simulation setttings can be found in Section 6 and Appendix B of the paper.</p>
+
+      <h3>Reference</h3>
+      <p>Yichao Li, <a href="https://wenshuow.github.io" target="_blank">Wenshuo Wang</a>, Ke Deng and Jun Liu. (2020). <strong>Stratification and Optimal Resampling for Sequential Monte Carlo</strong>. [<a href="https://wenshuow.github.io/files/SMC_LWDL.pdf" target="_blank">pdf</a>] [<a href="https://arxiv.org/abs/2004.01975" target="_blank">arXiv</a>] [<a href="https://github.com/JunLiuLab/smg" target="_blank">code</a>]</p>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+
+
+
+    
+  </body>
+</html>
