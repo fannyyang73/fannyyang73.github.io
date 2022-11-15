@@ -56,7 +56,7 @@ pygmentsStyle = "native"
     # missing it will fallback to that one.
     description = "The homepage of Astatine"
     # Author of the site
-    authorName = "Jack Harkness"
+    authorName = "Jack TESTING"
     # Main image for the author. This will be the default image for SEO.
     [params.imgname]
         name = "img/main.jpg"
