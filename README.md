@@ -30,6 +30,7 @@ See [the example site in action](https://hugcis.github.io/hugo-astatine-theme/).
 - Taxonomies
 - Syntax highlighting
 - Microdata
+- Whatelse
 
 ## Installation
 
